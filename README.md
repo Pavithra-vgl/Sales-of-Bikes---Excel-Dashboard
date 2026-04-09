@@ -1,52 +1,72 @@
-***Sales of Bikes - Dashboard***
+# Bike Sales Analysis - Excel Dashboard
 
-This project involves analyzing a dataset on bike sales and presenting the insights through an interactive dashboard. The dashboard uses Excel for data visualization, featuring key components such as line charts, column charts, and slicers to filter the data dynamically.
+An interactive Excel dashboard analyzing bike purchase behavior across customer
+demographics including income, age, commute distance, education, marital status,
+and region. Built with pivot charts and slicers for dynamic filtering.
 
-**Project Overview**
+---
 
-This repository contains two key files:
+## Dashboard Preview
 
-**Excel Project Dataset**
-The raw dataset that includes information related to bike sales.
+![Bike Sales Dashboard](dashboard.png)
 
-**Sales of Bikes - Dashboard**
-The dashboard created in Excel that visualizes the data using various charts and slicers.
+---
 
-**Features of the Dashboard**
+## Key Insights
 
-**Line Chart:** 
-Shows trends in bike sales over time, helping to identify seasonal or periodic patterns.
+- Middle-aged customers show the highest bike purchase rate across all age groups
+- Customers with higher average income are more likely to purchase bikes
+- Bike purchases drop significantly beyond 5-mile commute distances
+- North America and Europe account for the majority of purchases
 
-**Column Chart:** 
-Displays comparative sales data for different categories, such as product types or regions.
+---
 
-**Slicers:**
-Provide an easy-to-use interface for filtering data by categories such as date, product, and location, allowing for dynamic exploration of the dataset.
+## Dashboard Components
 
-**How to Use the Dashboard**
+**Average Income by Gender and Purchase (Clustered Column Chart)**
+Compares average income of buyers vs non-buyers split by gender,
+revealing the income threshold associated with purchasing decisions.
 
-1. Open the Sales of Bikes - Dashboard.xlsx file.
-   
-2. Use the slicers to filter the data based on your preferred category (e.g., date, region, product).
-   
-3. The line and column charts will automatically update based on your selections, providing real-time insights.
-   
-**Dataset Overview**
+**Purchase by Age Group (Line Chart)**
+Tracks bike purchase counts across Adult, Middle Age, and Senior Citizen
+segments for both buyers and non-buyers.
 
-The dataset contains several fields that are used to analyze bike sales, such as:
+**Commute Distance vs Purchase (Line Chart)**
+Shows how purchase likelihood decreases as commute distance increases,
+with the sharpest drop beyond 5 miles.
 
-**Date:** The time period of the sales.
+**Slicers**
+Dynamic filtering by Education, Marital Status, and Region --
+all charts update in real time based on selections.
 
-**Product Type:** The category or type of bike.
+---
 
-**Sales Volume:** The number of units sold.
+## Files
 
-**Revenue:** The total income generated from sales.
+| File | Description |
+|---|---|
+| `Excel Project Dataset.xlsx` | Raw dataset with customer and sales data |
+| `Sales of Bikes - Dashboard.xlsx` | Interactive Excel dashboard |
+| `dashboard.png` | Dashboard screenshot |
 
-**Region:** The geographical location where the sales occurred.
+---
 
-**Tools Used**
+## How to Open
 
-**Microsoft Excel:** For data analysis, creating the dashboard, and visualizing insights using line and column charts.
+1. Download `Sales of Bikes - Dashboard.xlsx`
+2. Open in Microsoft Excel (2016 or later recommended)
+3. Use the slicers on the right to filter by Education, Marital Status, or Region
+4. All charts update automatically based on your selections
 
-**Excel Slicers:** For interactive filtering of data to drill down into specific categories.
+---
+
+## Tools
+
+`Microsoft Excel` `Pivot Tables` `Pivot Charts` `Slicers`
+
+---
+
+## Author
+
+Pavithra Lakshmi Venugopal
+M.Sc. Data Science Student, Hochschule Fulda
